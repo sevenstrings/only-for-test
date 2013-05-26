@@ -2,3 +2,14 @@
 # this is a common file, nothing special.
 def afile_function():
     pass
+
+# and here comes the function description details
+# description short
+# description normal
+# description full
+# description fuller
+
+def _afile_function():
+    func1()
+    func2()
+    ruturn func3()
