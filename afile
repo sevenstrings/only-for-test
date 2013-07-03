@@ -1,7 +1,9 @@
 # todo
 # this is a common file, nothing special.
 def afile_function():
-    pass
+    def wrapped():
+        pass
+    return wrapped
 
 # and here comes the function description details
 # description short
