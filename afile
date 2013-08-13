@@ -1,3 +1,4 @@
+
 # todo
 # this is a common file, nothing special.
 def afile_function():
@@ -15,3 +16,5 @@ def _afile_function():
     func1()
     func2()
     ruturn func3()
+
+# eof
