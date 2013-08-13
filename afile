@@ -15,3 +15,5 @@ def _afile_function():
     func1()
     func2()
     ruturn func3()
+
+# eof
