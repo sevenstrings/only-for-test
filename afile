@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# todo    
-#this is a common file, nothing special.
-=======
 # todo
 # this is a common file, nothing special.
 def afile_function():
@@ -19,4 +15,3 @@ def _afile_function():
     func1()
     func2()
     ruturn func3()
->>>>>>> 9a919de5a281b1bd784b1fb22bef8f84e058d44f
