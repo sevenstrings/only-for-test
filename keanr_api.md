@@ -81,6 +81,6 @@ response:
 ##### GET /orders/order_id/
 
 response:
-# 200 (ok)
+* 200 (ok)
 * format: json
 * {'deal_id': 1, ‘deal_url’: ‘https://www.dealflicks.com/theaters/grand-lake-theater/movies/the-wolf-of-wall-street/deals’, 'city': 'Oakland', 'theater': 'grand lake theater', 'movie': 'the wolf of wall street', 'datetime': '2014-05-20T07:30:00-08:00', 'owner': 'Ke Guan', 'invitees': [{'name': 'Jim Green', 'status': 'yes'}, {'name': 'Lucy King', 'status': 'no'}], 'buy_fors': [{'name': 'Jack Brown', 'status': ''}]}
