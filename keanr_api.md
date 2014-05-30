@@ -3,9 +3,9 @@ Keanr api
 
 ### GET /accounts/referral/
 * response:
-** 200 (ok)
-** format - text
-** referral page
+    200 (ok)
+    format - text
+    referral page
 
 ### POST /accounts/referral/
 * params:
