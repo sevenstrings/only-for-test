@@ -2,23 +2,36 @@ Keanr api
 =======================
 
 ### GET /accounts/referral/
-* response:
-    200 (ok)
-    format - text
-    referral page
+>response:
+
+>*200 (ok)
+
+>*format - text
+
+>*referral page
 
 ### POST /accounts/referral/
-* params:
-** referrer - referrer's email
-* response:
-** success
-** 201 (created)
-** format: json
-** { }
-** fail
-** 200 (ok)
-** format -text
-** referral page (with error information)
+>params:
+
+>*referrer - referrer's email
+
+>response:
+
+>* success
+
+>* 201 (created)
+
+>* format: json
+
+>* { }
+
+>* fail
+
+>* 200 (ok)
+
+>* format -text
+
+>* referral page (with error information)
 
 ### GET /accounts/user_id/
 * response: 
