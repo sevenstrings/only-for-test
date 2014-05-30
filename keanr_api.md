@@ -3,32 +3,40 @@ Keanr api
 
 ### GET /accounts/referral/
 * response:
-*  format - text
-*  referral page
+** 200 (ok)
+** format - text
+** referral page
 
 ### POST /accounts/referral/
 * params:
-*   referrer - referrer's email
+** referrer - referrer's email
 * response:
-*   format: json
-*   { }
+** success
+** 201 (created)
+** format: json
+** { }
+** fail
+** 200 (ok)
+** format -text
+** referral page (with error information)
 
 ### GET /accounts/user_id/
 * response: 
-*   format: json
-*   {‘name’: ‘’, 'user_name': '', 'birthday': '', ...}
+** 200 (ok)
+** format: json
+** example: {'name': 'Alec Gellis', 'username': 'AG_1234', 'Tagline': 'Living life to the fullest!', 'Interests': '#Biking, #movies, #Cooking, #Traveling', 'birthday': '5-21-1982'; 'gender': 'M', 'gender_interest': 'Female', 'look_for': 'Friendships, Netwroking', 'Relationship_status': 'Single', 'language': 'English, German', 'ethnicity': 'German', 'religion': 'Catholic', 'political_views': 'liberal', 'expertise': '#Product Design, #UI', 'work_education': 'College Graduate'}
 
-
-### PUT /accounts/user_id/
+### PUT /accounts/profile/
 * params: name, username, tagline, birthday(mm-dd-yyyy), interests, gender(m/f), look_for, relationship_status, language, ethnicity, political_view, expertise, work_education. (all optional)
 * response: 
-*   format: json
-*   { }
+** 202 (accepted)
+** format: json
+** { }
 
 ### GET /friends/
 * response:
-*   format: json
-*   [{'name': '', 'facebook_id': '', {'name': '', 'facebook_id': ''}, ...]
+** format: json
+** example: [{'name': 'Ke Guan', 'facebook_id': '100000988865835', 'interests_num': '3', 'avg_score': 9.8}, {'name': 'Cindy Angel', 'facebook_id': '100006763179779', 'interests_num': '2', 'avg_score': 9.9}]
 
 ### GET /orders/
 * response:
