@@ -4,11 +4,11 @@ Keanr api
 ### GET /accounts/referral/
 response:
 
-*200 (ok)
+* 200 (ok)
 
-*format - text
+* format - text
 
-*referral page
+* referral page
 
 ### POST /accounts/referral/
 >params:
